@@ -10,7 +10,7 @@ namespace StackAndQueues
     {
         
        
- internal Node head;
+       internal Node head;
         internal void Add(int data)
         {
             Node node = new Node(data);
