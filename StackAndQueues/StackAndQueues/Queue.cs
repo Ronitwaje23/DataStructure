@@ -43,7 +43,21 @@ namespace StackAndQueues
             }
             Console.WriteLine();
         }
+        internal void Dequeue()
+        {
+            if (this.front == null)
+            {
+                Console.WriteLine("Queue is empty");
+                return;
+            }
+            Node temp = this.front;
+            this.front = this.front.next;
+
+            if (this.front == null)
+            {
+                this.rear = null;
+            }
+            Console.WriteLine("{0} is deleted from the Queue", temp.data);
+        }
     }
 }
-   
-
