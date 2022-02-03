@@ -8,7 +8,9 @@ namespace StackAndQueues
 {
     internal class LinkedList
     {
-        internal Node head;
+        
+       
+ internal Node head;
         internal void Add(int data)
         {
             Node node = new Node(data);
@@ -173,5 +175,5 @@ namespace StackAndQueues
 
     }
 }
-    
+
 
